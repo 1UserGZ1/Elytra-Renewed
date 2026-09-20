@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "elytra_renewed",
+	"version": "1.0.0",
+	"name": "Elytra Renewed",
+	"description": "鞘翅革新：滑翔时获得向前加速度，极速 3.0 格/秒，无需烟花火箭即可长距离滑翔。",
+	"authors": [
+		"DY_XiaoJiaZi"
+	],
+	"contact": {
+		"homepage": "https://github.com/1UserGZ1",
+		"sources": "https://github.com/1UserGZ1"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dyxiaojiazi.elytra_renewed.ElytraRenewed"
+		],
+		"client": [
+			"com.dyxiaojiazi.elytra_renewed.ElytraRenewedClient"
+		]
+	},
+	"mixins": [
+		"template-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
