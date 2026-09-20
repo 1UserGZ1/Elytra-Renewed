@@ -1,7 +1,3 @@
-下面是中英双语的模组介绍，你可以直接贴到 GitHub 的 README 或发布页。
-
----
-
 # 鞘翅革新 / Elytra Renewed
 
 ## 中文版
